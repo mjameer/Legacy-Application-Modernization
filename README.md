@@ -9,7 +9,17 @@ Via this process, all such legacy applications have been adapted to modern stand
 ### Solution Provided
 
 I adopted a legacy application modernization approach that integrated various processes ranging from Mavenizing the application to implementing CI/CD process using Jenkins, Unit testing, TRO scanning(via Nexus, Whitehat DATS, and SATS), Sonar, Artifactory integration, established Git as a proper version control management tool via automated release process and provided an approval and Rollback step in Jenkins to deploy artifacts to production.
-Technologies Used: Maven, Jenkins, Junit, Sonar, Nexus, Whitehat, Artifactory, Git, IBM UCD, Groovy 
+### Technologies Used
+
+- Maven
+- Jenkins - Declarative pipeline 
+- Junit
+- Sonar
+- Nexus
+- Whitehat
+- Artifactory
+- Git
+- UCD - Urban code deployer 
 
 This process was created as a reusable asset that can be used across multiple applications in other projects. 
 
