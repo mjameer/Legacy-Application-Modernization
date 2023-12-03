@@ -34,7 +34,7 @@ This process listed would eliminate all of the above problems.
 This process aids in keeping the application code in alignment with modern standards, this way it would be easier to upgrade the code during any migration such as the java/OS/app server’s version upgrade. 
 Also, this process helps to slash down the time taken to build and deploy the application binary and bring down the number of post-deployment failures due to missing components/configurations, code defects, and Duplicate code and also brings down the number of vulnerabilities associated with bad library within the code.  
 
-### Tell us how you came up with this idea*
+### How I came up with this idea*
 
 The projects I worked for had lots of legacy applications, and we faced frequent deployment failures from time to time due to missing components/configurations, code defects, and sometimes we had performance issues post-deployment due to Duplicate code, numerous numbers of sonar defects, or bad code. During the vulnerability breaches such as Equifax, Log 4j 1.x issues, we faced multiple challenges upgrading our code immediately. 
 
