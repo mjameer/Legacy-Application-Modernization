@@ -19,7 +19,8 @@ I adopted a legacy application modernization approach that integrated various pr
 - Whitehat
 - Artifactory
 - Git
-- UCD - Urban code deployer 
+- UCD - Urban code deployer
+- WAS to Liberty Migration 
 
 This process was created as a reusable asset that can be used across multiple applications in other projects. 
 
@@ -28,6 +29,20 @@ This process was created as a reusable asset that can be used across multiple ap
 There are lots of critical applications within our projects that are over a decade old and have no build, CI/CD, automated Unit testing, Sonar, and TRO integration implemented. Several such applications must be available round the clock for the customer's reference and from time to time, the application team ended up fixing performance and TRO issues caused by bad code or by using vulnerable libraries and there were several application outages, post deployments due to missing runtime components, configuration, and source code, which caused several production deployment failures. 
 
 This process listed would eliminate all of the above problems. 
+
+Also, this process pays way for migrating applications from IBM WAS to IBM Liberty 
+
+### Why Migrate Application to Liberty
+We tend to migrate applications to Liberty due to the following reasons.
+Even with the highest version of WAS, it only supports up to Java 8. For now, IBM has no plan to enhance it further. So, if Java 8 becomes out of complaint, then eventually you may need to choose another app server.
+Refer here -> https://www.ibm.com/support/pages/verify-java-sdk-version-shipped-ibm-websphere-application-server-fix-packs.
+
+Just so you know, WAS is not supported in AKS architecture, it can be used only in traditional VM.
+Refer here for more info -> https://learn.microsoft.com/en-us/azure/developer/java/ee/websphere-family
+
+![image](https://github.com/mjameer/Legacy-Application-Modernization/assets/11364104/28c32edf-34d7-431f-84a6-4a94778ecde4)
+
+Refer more on WAS to Liberty [here](https://github.com/mjameer/LibertyMigrationSteps?tab=readme-ov-file#why-migrate-application-to-liberty)
 
 ### What are the benefits to the Customer if this idea is implemented?*
 
