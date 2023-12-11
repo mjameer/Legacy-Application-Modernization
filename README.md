@@ -33,16 +33,15 @@ This process listed would eliminate all of the above problems.
 Also, this process pays way for migrating applications from IBM WAS to IBM Liberty 
 
 ### Why Migrate Application to Liberty
-We tend to migrate applications to Liberty due to the following reasons.
-Even with the highest version of WAS, it only supports up to Java 8. For now, IBM has no plan to enhance it further. So, if Java 8 becomes out of complaint, then eventually you may need to choose another app server.
-Refer here -> https://www.ibm.com/support/pages/verify-java-sdk-version-shipped-ibm-websphere-application-server-fix-packs.
 
-Just so you know, WAS is not supported in AKS architecture, it can be used only in traditional VM.
-Refer here for more info -> https://learn.microsoft.com/en-us/azure/developer/java/ee/websphere-family
+We tend to migrate applications to Liberty due to the following reasons.
+- Even with the highest version of WAS, it only supports up to Java 8.
+- For now, IBM has no plan to enhance it further. So, if Java 8 becomes out of complaint, then eventually you may need to choose another app server. Refer here on [IBM decommission plan](https://www.ibm.com/support/pages/verify-java-sdk-version-shipped-ibm-websphere-application-server-fix-packs).
+- Just so you know, WAS is not supported in AKS architecture, it can be used only in traditional VM. Refer here for more info -> [Solutions to run WAS/Liberty in Azure](https://learn.microsoft.com/en-us/azure/developer/java/ee/websphere-family)
 
 ![image](https://github.com/mjameer/Legacy-Application-Modernization/assets/11364104/28c32edf-34d7-431f-84a6-4a94778ecde4)
 
-Refer more on WAS to Liberty [here](https://github.com/mjameer/LibertyMigrationSteps?tab=readme-ov-file#why-migrate-application-to-liberty)
+Refer more on [WAS to Liberty](https://github.com/mjameer/LibertyMigrationSteps?tab=readme-ov-file#why-migrate-application-to-liberty)
 
 ### What are the benefits to the Customer if this idea is implemented?*
 
