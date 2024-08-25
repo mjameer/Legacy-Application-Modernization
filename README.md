@@ -41,7 +41,7 @@ We tend to migrate applications to Liberty due to the following reasons.
 
 ![image](https://github.com/mjameer/Legacy-Application-Modernization/assets/11364104/28c32edf-34d7-431f-84a6-4a94778ecde4)
 
-Refer more on [WAS to Liberty](https://github.com/mjameer/LibertyMigrationSteps?tab=readme-ov-file#why-migrate-application-to-liberty)
+Refer more on [Guide to Migrate Java application from WAS to Liberty](https://medium.com/@mj_ameer/guide-to-migrate-java-applications-from-was-to-liberty-129cfff9d31d)
 
 ### What are the benefits to the Customer if this idea is implemented?*
 
