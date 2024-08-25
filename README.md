@@ -2,6 +2,9 @@
 
 Many critical applications within our projects are over a decade old and have no build, CI/CD, automated Unit testing, Sonar, and TRO integration implemented. Several such applications must be available round the clock for the customer's reference and from time to time, the application team ended up fixing performance and TRO issues caused by bad code or by using vulnerable libraries and there were several application outages, post deployments due to missing runtime components, configuration, and source code, which caused several production deployment failures. 
 
+![image](https://github.com/user-attachments/assets/df256d98-9379-45c2-a450-5c622d8b14d2)
+
+
 This idea aids in converting all legacy applications to Maven-based build projects which are committed in Git and created a reusable Jenkins build pipeline via which he implemented all of the CI/CD process that includes build, unit testing, Sonar scanning, TRO scanning(Nexus, Whitehat SATS & DATS) and effective deployment/rollback tracker with the help of Artifactory. 
 Via this process, all such legacy applications have been adapted to modern standards and this process helped to slash down the time taken to build and deploy the application binary and bring down the number of post-deployment failures due to missing components/configurations, code defects, Duplicate code, and TRO issues.
 
